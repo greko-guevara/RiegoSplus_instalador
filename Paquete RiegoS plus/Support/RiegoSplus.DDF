@@ -1,0 +1,56 @@
+.OPTION EXPLICIT
+.Set Cabinet=off
+.Set Compress=off
+.Set MaxDiskSize=CDROM
+.Set ReservePerCabinetSize=6144
+.Set DiskDirectoryTemplate=".."
+.Set CompressionType=MSZIP
+.Set CompressionLevel=7
+.Set CompressionMemory=21
+.Set CabinetNameTemplate="RiegoS plus.CAB"
+"Setup.Lst"
+"setup.exe"
+.Set Cabinet=on
+.Set Compress=on
+"RiegoS plus.exe"
+"msvbvm60.dll"
+"oleaut32.dll"
+"olepro32.dll"
+"asycfilt.dll"
+"stdole2.tlb"
+"COMCAT.DLL"
+"VB6ES.DLL"
+"MSCOMCTL.OCX"
+"MSCMCES.DLL"
+"MSDBRPTR.DLL"
+"msstdfmt.dll"
+"DBRPRES.DLL"
+"MSFLXGRD.OCX"
+"FLXGDES.DLL"
+"MSDERUN.DLL"
+"msado20.tlb"
+"DAO350.DLL"
+"MSJET35.DLL"
+"MSJTER35.DLL"
+"MSJINT35.DLL"
+"vbajet32.dll"
+"expsrv.dll"
+"MSRD2X35.DLL"
+"MSREPL35.DLL"
+"MSVCRT40.DLL"
+"VB5DB.DLL"
+"COMDLG32.OCX"
+"CMDLGES.DLL"
+"mscomct2.ocx"
+"MSCC2ES.DLL"
+"TABCTL32.OCX"
+"TABCTES.DLL"
+"GRAPH32.OCX"
+"MFC40.DLL"
+"mfc40loc.dll"
+"GSW32.EXE"
+"GSWDLL32.DLL"
+"MDAC_TYP.EXE"
+"SETUP1.EXE"
+"VB6STKIT.DLL"
+"ST6UNST.EXE"
